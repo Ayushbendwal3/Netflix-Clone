@@ -7,21 +7,21 @@ import Nav from './Components/Nav'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
-        isLargeRow
+        isLargeRoa
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
-      {/* <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
+      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
-      <Row title="Top Rated Movies" fetchUrl={requests.fetchTopRated} /> */}
+      <Row title="Top Rated Movies" fetchUrl={requests.fetchTopRated} />
     </div>
   )
 }
