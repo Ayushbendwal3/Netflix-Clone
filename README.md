@@ -1,3 +1,12 @@
-It is a Netflix-Clone build on React JS
+# A React App with realtime Database using Hooks
 
-link to running website:- https://netflix-clone-5966a.web.app/
+## Netflix Clone
+A netflix Look a Like App
+
+## Project Specification
+- TMDB movie api is used
+- Custom CSS
+- Trailer peek of movies on click
+
+## Deployed on Firebase
+- Site link:- https://netflix-clone-5966a.web.app/
